@@ -1,12 +1,11 @@
-import Navbar from "#components/navbar"
+import {Navbar, Welcome} from "#components"
 
 const App = () => {
   return (
-    // <div>
-    //   <h1 className="text-3xl font-bold underline">Bine ai venit</h1>
-    // </div>
+   
     <main>
       <Navbar />
+      <Welcome />
           </main>
   )
 }
