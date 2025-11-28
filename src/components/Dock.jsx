@@ -50,7 +50,9 @@ const Dock = () => {
             dock.removeEventListener("mouseleave", resetIcons)
         };
     },[]);
-  const toggleApp = (app) => {};
+  const toggleApp = (app) => {
+    //implement deschiderea ferestrei
+  };
 
   return (
     <section id="dock">
