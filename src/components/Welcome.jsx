@@ -72,15 +72,15 @@ useGSAP(() => {
   
 return (
     <section id="welcome">
-      <p ref={subtitleRef}>
+      <p ref={subtitleRef} className="text-black font-bold">
         {renderText(
-          " Salut, bine ai venit pe site-ul despre",
-          "text-3xl font-georama",
+          " Connecting cultures, ideas and stories ",
+          "text-4xl text-bold font-georama",
           100
         )}
       </p>
-      <h1 ref={titleRef} className="mt-7">
-        {renderText("Valori Culturale", " text-7xl italic font-georama")}
+      <h1 ref={titleRef} className="mt-7 text-[#E5D3A4]">
+        {renderText("Cultural Values", "text-8xl italic font-georama")}
       </h1>
 
       <div className="small-screen">

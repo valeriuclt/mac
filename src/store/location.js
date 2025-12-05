@@ -9,8 +9,11 @@ import {immer} from 'zustand/middleware/immer';
     immer((set) => ({
         activeLocation : DEFAULT_LOCATION, 
 
-        setActiveLocation:(location = null) => 
+        // setActiveLocation:(location = null) => 
+        setActiveLocation:(location) => 
+
             set((state) => {
+                if(location === undefined) return;
                 state.activeLocation = location; 
             }),
         

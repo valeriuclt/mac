@@ -8,16 +8,16 @@ const Terminal = () => {
     <>
       <div id="window-header">
         <WindowsControls target="terminal" />
-        <h2>Tech Stack</h2>
+        <h2>Specialization</h2>
       </div>
 
       <div className="techstack">
         <p>
-          <span className="font-bold">Coro %</span> show tech stack
+          Building Blocks of My  <span className="font-bold">Expertise </span> 
         </p>
         <div className="label">
           <p className="w-32">Category</p>
-          <p>Technologies</p>
+          <p>Selected Academic Background</p>
         </div>
 
         <ul className="content">

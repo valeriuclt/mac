@@ -33,8 +33,9 @@ const Safari = () => {
 
    <div className="blog">
     <h2>
-        My work & interests 
+      A Portfolio of Possibilitie
     </h2>
+    <h4> These aren't just portfolio pieces—they're conversations waiting to happen. Developer, designer, founder, or simply curious? There's something here worth your time.</h4>
     <div className="space-y-8">
         {blogPosts.map(({id, image, title,date, link})=> (
             <div key={id} className="blog-post">
