@@ -35,7 +35,7 @@ const Safari = () => {
     <h2>
       A Portfolio of Possibilitie
     </h2>
-    <h4> These aren't just portfolio pieces—they're conversations waiting to happen. Developer, designer, founder, or simply curious? There's something here worth your time.</h4>
+    <h4> These aren't just portfolio pieces—they're conversations waiting to happen. </h4>
     <div className="space-y-8">
         {blogPosts.map(({id, image, title,date, link})=> (
             <div key={id} className="blog-post">

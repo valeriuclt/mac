@@ -79,7 +79,7 @@ const blogPosts = [
     id: 1,
     date: "Sep 2, 2025",
     title:
-      "An exercise in digital restraint where less isn't just more—it's everything. We've created a space where every decision matters, every element earns its presence, and beauty emerges from purposeful constraint.",
+      "An exercise in digital restraint where less isn't just more—it's everything. ",
     image: "/images/blog1.png",
     link: "https://spring-lovat.vercel.app/",
   },
@@ -100,14 +100,14 @@ const blogPosts = [
   {
     id: 3,
     date: "Aug 15, 2025",
-    title: "What started as an experiment in minimalist design became something unexpected.About how digital experiences should feel. Refreshingly different. Surprisingly familiar.",
+    title: "What started as an experiment in minimalist design became something unexpected.",
     image: "/images/blog3.png",
     link: "https://milk-zeta.vercel.app",
   },
   {
     id: 4,
     date: "Jun 15, 2025",
-    title: "The playground where physics meets pixels. This isn't just animation—it's choreography for the digital age. Every scroll tells a story, every hover holds a surprise.",
+    title: "The playground where physics meets pixels. Every scroll tells a story, every hover holds a surprise.",
     image: "/images/blog3.png",
     link: "https://gsap-six-umber.vercel.app/",
   },
